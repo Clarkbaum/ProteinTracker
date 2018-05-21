@@ -1,9 +1,9 @@
 package com.simpleprogrammer.proteintracker;
 
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
-import static org.junit.Assert.*;
-
+@Category(GoodTestsCategory.class)
 public class HistoryItemTest {
 
     @Test

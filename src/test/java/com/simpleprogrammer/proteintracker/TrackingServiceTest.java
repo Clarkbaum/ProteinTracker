@@ -1,6 +1,7 @@
 package com.simpleprogrammer.proteintracker;
 
 import org.junit.*;
+import org.junit.experimental.categories.Category;
 
 import static org.junit.Assert.assertEquals;
 
@@ -32,19 +33,23 @@ public class TrackingServiceTest {
     }
 
     @Test
+    //this is how you can set one to be multiple categories
+    @Category({GoodTestsCategory.class, BadCategory.class})
     public void newTrackingServiceIsZero() {
         assertEquals("tracking service was not zero", 0, service.getTotal());
     }
 
     @Test
     //just an example of how to ignore
-    @Ignore
+    //@Ignore
+    @Category(GoodTestsCategory.class)
     public void WhenAddingProteinTotalIncreasesByThatAmount() {
         service.addProtein(10);
         assertEquals(10, service.getTotal());
     }
 
     @Test
+    @Category(GoodTestsCategory.class)
     public void WhenRemovingProteinTotalRemainsZero() {
         service.removeProtein(5);
         assertEquals(0, service.getTotal());

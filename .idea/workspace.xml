@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="618dd929-1df3-4591-8e05-6424fe1a4d5c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/simpleprogrammer/proteintracker/InvalidGoalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/ProteinTrackerSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/BadCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/GoodTestsCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/GoodTestsSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/simpleprogrammer/proteintracker/TrackingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/simpleprogrammer/proteintracker/TrackingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/simpleprogrammer/proteintracker/HistoryItemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/simpleprogrammer/proteintracker/HistoryItemTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/simpleprogrammer/proteintracker/ProteinTrackerSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/simpleprogrammer/proteintracker/ProteinTrackerSuite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/com/simpleprogrammer/proteintracker/TrackingServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/simpleprogrammer/proteintracker/TrackingServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/simpleprogrammer/proteintracker/TrackingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/simpleprogrammer/proteintracker/TrackingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/HistoryItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/HistoryItemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/TrackingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/TrackingServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,17 +51,11 @@
       <file leaf-file-name="HistoryItemTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/HistoryItemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrackingService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/materials 2/demos 2/after/ProteinTracker/src/com/simpleprogrammer/proteintracker/TrackingService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="40" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="345">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrackingServiceTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TrackingServiceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/TrackingServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+            <state relative-caret-position="238">
+              <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#420#421#0" expanded="true" />
@@ -123,14 +119,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProteinTrackerSuite.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/ProteinTrackerSuite.java">
+      <file leaf-file-name="GoodTestsSuite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/GoodTestsSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+            <state relative-caret-position="150">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BadCategory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/BadCategory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProteinTrackerSuite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/ProteinTrackerSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodTestsCategory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/GoodTestsCategory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -142,6 +168,7 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -446,14 +473,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/simpleprogrammer/proteintracker/HistoryItem.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/HistoryItemTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/simpleprogrammer/proteintracker/InvalidGoalException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/simpleprogrammer/proteintracker/TrackingService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/TrackingServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/ProteinTrackerSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/simpleprogrammer/proteintracker/GoodTestsCagetory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/GoodTestsCagetory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/HistoryItemTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/GoodTestsSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/BadCategory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/TrackingServiceTest.java" />
       </list>
     </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="ProteinTrackerSuite" />
+    </enabled-run-configurations>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
@@ -560,9 +596,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProteinTrackerSuite">
+  <component name="RunManager" selected="JUnit.GoodTestsSuite">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="GoodTestsSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.simpleprogrammer.proteintracker_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simpleprogrammer.proteintracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.simpleprogrammer.proteintracker" />
+      <option name="MAIN_CLASS_NAME" value="com.simpleprogrammer.proteintracker.GoodTestsSuite" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="HistoryItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.simpleprogrammer.proteintracker_test" />
@@ -699,9 +758,11 @@
       <item itemvalue="JUnit.TrackingServiceTest.newTrackingServiceIsZero" />
       <item itemvalue="JUnit.TrackingServiceTest" />
       <item itemvalue="JUnit.ProteinTrackerSuite" />
+      <item itemvalue="JUnit.GoodTestsSuite" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GoodTestsSuite" />
         <item itemvalue="JUnit.ProteinTrackerSuite" />
         <item itemvalue="JUnit.TrackingServiceTest" />
         <item itemvalue="JUnit.TrackingServiceTest.newTrackingServiceIsZero" />
@@ -723,12 +784,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TrackingServiceTest_newTrackingServiceIsZero - 2018.05.18 at 16h 51m 06s.xml">
-      <configuration name="TrackingServiceTest.newTrackingServiceIsZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrackingServiceTest_newTrackingServiceIsZero - 2018.05.18 at 16h 51m 19s.xml">
-      <configuration name="TrackingServiceTest.newTrackingServiceIsZero" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TrackingServiceTest - 2018.05.18 at 16h 53m 58s.xml">
       <configuration name="TrackingServiceTest" configurationId="JUnit" />
     </history-entry>
@@ -753,6 +808,12 @@
     <history-entry file="ProteinTrackerSuite - 2018.05.21 at 15h 31m 14s.xml">
       <configuration name="ProteinTrackerSuite" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProteinTrackerSuite - 2018.05.21 at 15h 42m 57s.xml">
+      <configuration name="ProteinTrackerSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodTestsSuite - 2018.05.21 at 15h 46m 14s.xml">
+      <configuration name="GoodTestsSuite" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -773,11 +834,11 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32923076" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info anchor="bottom" id="Build" weight="0.2871795" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Gradle" />
@@ -842,13 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/HistoryItemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/simpleprogrammer/proteintracker/TrackingService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -866,10 +920,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/simpleprogrammer/proteintracker/GoodTestsCagetory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/GoodTestsCagetory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/GoodTestsCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/HistoryItemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/ProteinTrackerSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/GoodTestsSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/BadCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/TrackingServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+        <state relative-caret-position="238">
+          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#420#421#0" expanded="true" />
@@ -882,16 +994,6 @@
             <element signature="e#498#499#0" expanded="true" />
             <element signature="e#267#268#0" expanded="true" />
             <element signature="e#351#352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/ProteinTrackerSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

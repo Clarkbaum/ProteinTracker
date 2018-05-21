@@ -37,6 +37,8 @@ public class TrackingServiceTest {
     }
 
     @Test
+    //just an example of how to ignore
+    @Ignore
     public void WhenAddingProteinTotalIncreasesByThatAmount() {
         service.addProtein(10);
         assertEquals(10, service.getTotal());
@@ -46,5 +48,18 @@ public class TrackingServiceTest {
     public void WhenRemovingProteinTotalRemainsZero() {
         service.removeProtein(5);
         assertEquals(0, service.getTotal());
+    }
+
+    //tests to see if the exception i made was thrown
+    @Test(expected = InvalidGoalException.class)
+    public void WhenGoalIsSetToLessThanZeroExcpetionIsThrown() throws InvalidGoalException {
+        service.setGoal(-5);
+    }
+
+    //timeout example. in milliseconds
+    @Test(timeout = 200)
+    public void TimeOutTest() {
+        for(int i = 0; i < 100; i++)
+            service.addProtein(i);
     }
 }

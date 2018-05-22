@@ -31,7 +31,7 @@ public class TrackingService {
     public void setGoal(int value) throws InvalidGoalException {
         if (value < 0) {
             //this is specifically tested for in the tests
-            throw new InvalidGoalException();
+            throw new InvalidGoalException("Goal was less than zero");
         }
         goal = value;
     }

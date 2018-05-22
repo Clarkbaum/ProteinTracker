@@ -20,7 +20,7 @@ public class TrackingServiceTheories {
     //this is a lot like @Test
     @Theory
     public void positiveValuesShouldAlwaysHavePositiveTotals(int value) {
-        TrackingService service = new TrackingService();
+        TrackingService service = new TrackingService(new NotifierStub());
         service.addProtein(value);
         //this is going to ignore any values that dont meet this, so the -4. other wise this test will fail
         Assume.assumeTrue(value > 0);

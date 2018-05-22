@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
 @RunWith(Parameterized.class)
 public class ParameterizedTests {
 
-    private static TrackingService service = new TrackingService();
+    private static TrackingService service = new TrackingService(new NotifierStub());
     private final int input;
     private final int expected;
 

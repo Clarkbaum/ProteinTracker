@@ -8,11 +8,24 @@ public class TrackingService {
     private int goal;
     private List<HistoryItem> history = new ArrayList<HistoryItem>();
     private int historyId = 0;
+    private Notifier notifier;
+
+    public TrackingService (Notifier notifer){
+        this.notifier = notifer;
+    }
 
     public void addProtein(int amount)
     {
         total += amount;
         history.add(new HistoryItem(historyId++, amount, "add", total));
+
+        if (total > goal) {
+            boolean sendResult = notifier.send("goal met");
+            String historyMessage = "send:goal met";
+            if(!sendResult)
+                historyMessage = "send_error: goal met";
+            history.add(new HistoryItem(historyId++, 0, historyMessage, total));
+        }
     }
 
     public void removeProtein(int amount)

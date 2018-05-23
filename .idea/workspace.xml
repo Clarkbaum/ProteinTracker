@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="618dd929-1df3-4591-8e05-6424fe1a4d5c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/simpleprogrammer/proteintracker/Notifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/simpleprogrammer/proteintracker/NotifierStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/ConsoleRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/simpleprogrammer/proteintracker/TrackingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/simpleprogrammer/proteintracker/TrackingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/ParameterizedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/ParameterizedTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/TrackingServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/TrackingServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/TrackingServiceTheories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/TrackingServiceTheories.java" afterDir="false" />
-    </list>
+    <list default="true" id="618dd929-1df3-4591-8e05-6424fe1a4d5c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -119,8 +110,8 @@
       <file leaf-file-name="TrackingServiceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/TrackingServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+            <state relative-caret-position="459">
+              <caret line="88" column="49" lean-forward="true" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#514#515#0" expanded="true" />
@@ -1048,8 +1039,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/simpleprogrammer/proteintracker/TrackingServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+        <state relative-caret-position="459">
+          <caret line="88" column="49" lean-forward="true" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#514#515#0" expanded="true" />

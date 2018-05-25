@@ -12,8 +12,8 @@ import static org.junit.Assert.assertTrue;
 public class TrackingServiceTheories {
     @DataPoints
     public static int[] data() {
-        return new int[] {
-                1,5,10,15,20,50,-4
+        return new int[]{
+                1, 5, 10, 15, 20, 50, -4
         };
     }
 

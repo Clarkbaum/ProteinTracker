@@ -10,28 +10,26 @@ public class TrackingService {
     private int historyId = 0;
     private Notifier notifier;
 
-    public TrackingService (Notifier notifer){
+    public TrackingService(Notifier notifer) {
         this.notifier = notifer;
     }
 
-    public void addProtein(int amount)
-    {
+    public void addProtein(int amount) {
         total += amount;
         history.add(new HistoryItem(historyId++, amount, "add", total));
 
         if (total > goal) {
             boolean sendResult = notifier.send("goal met");
             String historyMessage = "send:goal met";
-            if(!sendResult)
+            if (!sendResult)
                 historyMessage = "send_error: goal met";
             history.add(new HistoryItem(historyId++, 0, historyMessage, total));
         }
     }
 
-    public void removeProtein(int amount)
-    {
+    public void removeProtein(int amount) {
         total -= amount;
-        if(total < 0)
+        if (total < 0)
             total = 0;
 
         history.add(new HistoryItem(historyId++, amount, "subtract", total));

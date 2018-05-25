@@ -5,13 +5,20 @@ import org.junit.experimental.categories.Category;
 import org.junit.rules.ExpectedException;
 import org.junit.rules.Timeout;
 
-import static org.junit.Assert.*;
-//these from the hamcrest part of the tutorial
 import static org.hamcrest.CoreMatchers.*;
-import static org.junit.matchers.JUnitMatchers.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
+
+//these from the hamcrest part of the tutorial
 
 public class TrackingServiceTest {
 
+    //this seems to have to be expectredexception
+    @Rule
+    public ExpectedException thrown = ExpectedException.none();
+    //sets timeout for the whole class
+    @Rule
+    public Timeout timeout = new Timeout(20);
     private TrackingService service;
 
     //before every test
@@ -76,10 +83,6 @@ public class TrackingServiceTest {
         assertEquals("send:goal met", result.getOperation());
     }
 
-    //this seems to have to be expectredexception
-    @Rule
-    public ExpectedException thrown = ExpectedException.none();
-
     //tests to see if the exception i made was thrown
     @Test(expected = InvalidGoalException.class)
     //this test currently borken
@@ -91,16 +94,12 @@ public class TrackingServiceTest {
         service.setGoal(-5);
     }
 
-    //sets timeout for the whole class
-    @Rule
-    public Timeout timeout = new Timeout(20);
-
     //timeout example. in milliseconds
     //will no longer need to set timeout here since the rule sets it for the whole class
     @Test
     //@Test(timeout = 200)
     public void TimeOutTest() {
-        for(int i = 0; i < 100; i++)
+        for (int i = 0; i < 100; i++)
             service.addProtein(i);
     }
 }
